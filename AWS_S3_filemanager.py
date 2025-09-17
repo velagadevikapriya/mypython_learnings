@@ -47,8 +47,3 @@ def delete_file(s3_key):
         print(f" Delete failed: {e}")
 
 # Example Usage
-if __name__ == "__main__":
-    # Call functions as needed
-    list_files()  # List files in the bucket
-    download_file("s3_key", "local_downloaded.csv")  # Download a file
-    delete_file("s3_key")  # Delete a file from S3
